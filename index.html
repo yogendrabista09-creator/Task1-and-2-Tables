@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marksheet</title>
+
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 30px auto;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        caption {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        .details {
+            background-color: #eeeeee;
+        }
+
+        .subjects {
+            background-color: #e8edff;
+        }
+
+        .total {
+            background-color: #e8f5e9;
+        }
+
+        tfoot td {
+            font-weight: bold;
+            text-align: left;
+        }
+
+        tfoot td:last-child {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+
+    <caption>Student Marksheet</caption>
+
+    <colgroup>
+        <col span="2" class="details">
+        <col span="3" class="subjects">
+        <col class="total">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th colspan="2">Student Details</th>
+            <th colspan="3">Subject Marks (Out of 100)</th>
+            <th rowspan="2">Total<br>Out of 300</th>
+        </tr>
+
+        <tr>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JavaScript</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Asha</td>
+            <td>88</td>
+            <td>84</td>
+            <td>90</td>
+            <td>262</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Bikash</td>
+            <td>75</td>
+            <td>80</td>
+            <td>78</td>
+            <td>233</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Nisha</td>
+            <td>92</td>
+            <td>89</td>
+            <td>94</td>
+            <td>275</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>suman</td>
+            <td>68</td>
+            <td>72</td>
+            <td>70</td>
+            <td>210</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="5">Class Average (Out of 300)</td>
+            <td>245</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+</body>
+</html>

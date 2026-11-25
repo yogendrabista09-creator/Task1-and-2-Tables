@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekly Computer Lab Timetable</title>
+
+    <style>
+        table {
+            width: 85%;
+            border-collapse: collapse;
+            margin: 30px auto;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        th, td {
+            border: 1px solid #777;
+            padding: 12px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        .day {
+            background-color: #eeeeee;
+        }
+
+        .morning {
+            background-color: #e8edff;
+        }
+
+        .break {
+            background-color: #fff2cc;
+        }
+
+        .afternoon {
+            background-color: #e8f5e9;
+        }
+
+        .room {
+            background-color: #eeeeee;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+
+    <caption>Weekly Computer Lab Timetable</caption>
+
+    <colgroup>
+        <col class="day">
+        <col span="2" class="morning">
+        <col class="break">
+        <col span="2" class="afternoon">
+        <col class="room">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="2">Morning Sessions</th>
+            <th rowspan="2">Break<br>11:00-11:30</th>
+            <th colspan="2">Afternoon Sessions</th>
+            <th rowspan="2">Room</th>
+        </tr>
+
+        <tr>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:30-12:30</th>
+            <th>12:30-1:30</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>Monday</td>
+            <td colspan="2">HTML Lab</td>
+            <td rowspan="5">Break</td>
+            <td>CSS</td>
+            <td>Practice</td>
+            <td>101</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td colspan="2">Web Project</td>
+            <td>102</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2">Table Workshop</td>
+            <td>Review</td>
+            <td>Quiz</td>
+            <td>101</td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>JavaScript</td>
+            <td>Practice</td>
+            <td colspan="2">Group Project</td>
+            <td>102</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>Revision</td>
+            <td>Test</td>
+            <td>Presentation</td>
+            <td>Feedback</td>
+            <td>101</td>
+        </tr>
+
+    </tbody>
+
+</table>
+
+</body>
+</html>
